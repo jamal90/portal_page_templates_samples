@@ -1,0 +1,8 @@
+<mvc:View controllerName="cpv2.templates.BlankPageV2.Template" height="100%" xmlns:cpControls="sap.hana.uis.flp.control"
+	xmlns:l="sap.ui.layout" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m">
+	<Page showFooter="false" showHeader="false" enableScrolling="true">
+		<content>
+			<cpControls:Section alias="page1.content"></cpControls:Section>
+		</content>
+	</Page>
+</mvc:View>

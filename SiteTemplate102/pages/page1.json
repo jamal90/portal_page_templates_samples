@@ -1,0 +1,26 @@
+{
+	"_version": "1.3.0",
+	"sap.app": {
+		"_version": "1.3.0",
+		"id": "hcp://sitetemplate102/SiteTemplate102/pages/page1.json",
+		"baseId": "hcp://sitetemplate102/SiteTemplate102/pageTemplates/BlankPage/manifest.json",
+		"title": "Starter Page",
+		"description": "A page layout that contain one predefined section",
+		"crossNavigation": {
+			"context": {},
+			"inbounds": {
+				"0": {
+					"semanticObject": "page1",
+					"action": "Display"
+				},
+				"1": {
+					"semanticObject": "Home",
+					"action": "show"
+				}
+			}
+		}
+	},
+	"sap.cloud.portal": {
+		"applicationType": "page"
+	}
+}

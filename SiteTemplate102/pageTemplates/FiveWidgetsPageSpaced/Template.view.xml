@@ -1,0 +1,16 @@
+<mvc:View controllerName="cpv2.templates.FiveWidgetsPageSpacedV2.Template" height="100%" xmlns:cpControls="sap.hana.uis.flp.control"
+	xmlns:l="sap.ui.layout" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m">
+	<Page showFooter="false" showHeader="false" enableScrolling="true">
+		<content>
+			<FlexBox width="100%" height="100%" justifyContent="SpaceBetween" alignContent="Center" direction="Column">
+				<items>
+					<cpControls:Section alias="headerfooter.first"></cpControls:Section>
+					<cpControls:Section alias="headerfooter.second"></cpControls:Section>
+					<cpControls:Section alias="headerfooter.third"></cpControls:Section>
+					<cpControls:Section alias="headerfooter.fourth"></cpControls:Section>
+					<cpControls:Section alias="headerfooter.fifth"></cpControls:Section>
+				</items>
+			</FlexBox>
+		</content>
+	</Page>
+</mvc:View>

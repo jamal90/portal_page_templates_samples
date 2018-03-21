@@ -1,0 +1,15 @@
+{
+	"_version": "1.1",
+	"identification": {
+		"id": "hcp://sitetemplate102/SiteTemplate102/catalogs/defaultCatalog.json",
+		"title": "Everyone",
+		"description": "",
+		"entityType": "catalog"
+	},
+	"payload": {
+		"appDescriptors": [{
+			"namespace": "",
+			"id": "hcp://sitetemplate102/SiteTemplate102/pages/page1.json"
+		}]
+	}
+}
